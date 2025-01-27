@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
- RUN apt-get update --no-cache
+ RUN apt-get update
  LABEL name=whitelable maintainer=Besant
  RUN  apt-get install -y apache2 curl net-tools wget unzip
  RUN  wget https://www.free-css.com/assets/files/free-css-templates/download/page296/carvilla.zip
