@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
  RUN  apt-get update
  LABEL name=whitelable maintainer=Besant
  RUN  apt-get install -y apache2 curl net-tools wget unzip
