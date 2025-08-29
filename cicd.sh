@@ -9,6 +9,7 @@ DOCKER_IMAGE_NAME="$UNAME/cicd_jan_16_2024"
 TAG="apache2"
 
 # variable for git repo dir
+2344565
 REPO_NAME=$(basename -s .git $REPO_URL)
 
 # Check git is installed
