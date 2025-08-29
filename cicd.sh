@@ -19,7 +19,6 @@ else
     echo "Git is not installed. Installing Git..."
 
     # Update the package list
-    #############
     sudo dnf update
 
     # Install Git
