@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Variables
+# Variables########
 
 REPO_URL="https://github.com/PranatPattankude/cicd.git"
 echo "Enter your Docker username"
